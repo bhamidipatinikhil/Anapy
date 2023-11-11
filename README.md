@@ -5,7 +5,7 @@
 
 ```
 If i have seen further than others, it is by standing upon the shoulders of giants.
-                                                            - Sir Isaac Newton
+                                                            ~ **Sir Isaac Newton**
 ```
 
 
