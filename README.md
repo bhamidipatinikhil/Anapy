@@ -3,7 +3,7 @@
 > Dedicated to Andrew Shitov, Moritz Lenz, Grant Sanderson and the open source community behind Raku, Python and Manim.
 > This project is not possible without the help of the open source community.
 
-```
+```markdown
 If i have seen further than others, it is by standing upon the shoulders of giants.
                                                             ~ **Sir Isaac Newton**
 ```
