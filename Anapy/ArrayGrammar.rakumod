@@ -44,9 +44,7 @@ class Pythonesque::Actions {
     method operator($/) { make Operator.new(action => $/.Str) }
 }
 
-# an exception class makes it easier to test for
-# specific error conditions in unit tests, but also
-# in regular code
+
 enum ErrorMode <TooMuch TooLittle NotSeenBefore>;
 class X::Pythonesque::WrongIndentation is Exception {
     has Int $.got is required;
@@ -136,6 +134,9 @@ grammar Pythonesque {
     token statement:sym<expression> {
         <expression>
     }
+
+    
+
     rule expression  { <term> + % <operator>   }
     token term       { <identifier> | <number> }
     token number     { \d+                     }
