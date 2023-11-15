@@ -4,4 +4,9 @@
 # precompiled files
 .precomp
 lib/.precomp
-
+media
+__pycache__
+Organised
+Release
+rough*
+Anapy*.rakumod
