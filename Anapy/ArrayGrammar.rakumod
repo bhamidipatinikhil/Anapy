@@ -135,7 +135,9 @@ grammar Pythonesque {
         <expression>
     }
 
-    
+    rule array-declaration {
+        <variable-name> '=' '[' [  <expression>+ %% ',' ]? ']'
+    }
 
     rule expression  { <term> + % <operator>   }
     token term       { <identifier> | <number> }
