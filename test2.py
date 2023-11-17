@@ -1,5 +1,4 @@
 arr = [6, 7, 8, 17, 3]
-
 arr.append(9)
 arr.append(472)
 arr.insert(1, 5)
