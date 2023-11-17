@@ -1,4 +1,6 @@
 from manim import *
+import sys
+sys.path.append('/home/nikhil/Documents/Nikhil Programming/MCA 4th Sem Project/Anapy/Manimations')
 from DescrRectangle import *
 
 class AnimVariable(VMobject):
