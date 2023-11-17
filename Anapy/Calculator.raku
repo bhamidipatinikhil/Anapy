@@ -1,5 +1,7 @@
+unit module Calculator;
 
-class Operator {
+
+class Operator is export {
     has Str $.symbol is required;
     has Numeric $.precedence  is required;
     method new(Str $symbol, Numeric $precedence) {
@@ -7,7 +9,7 @@ class Operator {
     }
 }
 
-grammar MathExpression  {
+grammar MathExpression is export {
     rule TOP { <.ws> <expression> }
     rule expression { <term> + % <infix> }
 
