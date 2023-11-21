@@ -8,3 +8,4 @@ arr.pop(4)
 arr.pop(2)
 arr.pop(1)
 arr.pop(1)
+

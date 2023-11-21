@@ -22,3 +22,5 @@ class Rough(Scene):
         self.play(anim_arr.pop(1))
         self.play(anim_arr.pop(1))
         self.wait(1)
+
+        

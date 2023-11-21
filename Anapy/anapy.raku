@@ -30,7 +30,8 @@ from Manimations.BlockSet import *
 from Manimations.DescrRectangle import *
 
 class AnimationOutput(Scene):
-	def construct(self):
+    def construct(self):
+
 END
 
 # my $manim_file = "{$pure_file_name}-manim-code.py";
