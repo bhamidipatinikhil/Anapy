@@ -1,0 +1,1 @@
+open('manim-output.py', 'w').close()
